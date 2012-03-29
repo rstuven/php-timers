@@ -1,0 +1,12 @@
+{
+    "name": "rstuven/timers",
+    "description": "setTimeout and setInterval for PHP",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Ricardo Stuven",
+            "email": "rstuven@gmail.com"
+        }
+    ],
+    "require": {}
+}
