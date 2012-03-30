@@ -101,13 +101,13 @@ function setInterval ($func, $milliseconds)
  * Just for simplifying the Timers::clearTimeout method
  *
  *
- * @param integer $interval - an integer representing the one returned from a call to setTimeout()
+ * @param integer $timer
  *
  * @return boolean
  */
-function clearTimeout ($func, $milliseconds)
+function clearTimeout ($timer)
 {
-    return Timers::setTimeout($func, $milliseconds);
+    return Timers::clearTimeout($timer);
 }
 
 /**
